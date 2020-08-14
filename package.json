@@ -1,8 +1,8 @@
 {
-  "name": "frontend",
+  "name": "mean-app-on-heroku",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild":"ng build --prod",
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node app.js",
     "build": "ng build",
@@ -41,7 +41,15 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "multer": "^1.4.2",
+    "pdfkit": "^0.11.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.5",
@@ -62,6 +70,19 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.7.5"
-  }
+    "typescript": "~3.7.5",
+    "nodemon": "^2.0.3"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHIVANSH009/shivansh009.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHIVANSH009/shivansh009.github.io/issues"
+  },
+  "homepage": "https://github.com/SHIVANSH009/shivansh009.github.io#readme"
 }
