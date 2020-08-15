@@ -19,6 +19,5 @@ app.use('/',FileRoutes);
 app.use('/api',StudentRoutes);
 app.use('/api/teacher',TeacherRoutes);
 
-var port_number = server.listen(process.env.PORT || 3400);
-
-app.listen(port_number,()=>console.log('Server connected on port '+port_number));
+const port_number = process.env.PORT || 3400;
+app.listen(port_number,()=>console.log('Server connected on port ' + port_number));
