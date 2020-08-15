@@ -19,4 +19,6 @@ app.use('/',FileRoutes);
 app.use('/api',StudentRoutes);
 app.use('/api/teacher',TeacherRoutes);
 
-app.listen(3400,()=>console.log('Server connected on port 3400'));
+var port_number = server.listen(process.env.PORT || 3400);
+
+app.listen(port_number,()=>console.log('Server connected on port '+port_number));
